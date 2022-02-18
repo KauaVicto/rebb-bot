@@ -1,0 +1,9 @@
+2022/02/18-00:43:46.775 1730 Reusing MANIFEST C:\Users\kauav\Documents\Projetos\Python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/18-00:43:46.776 1730 Recovering log #14
+2022/02/18-00:43:46.778 1730 Reusing old log C:\Users\kauav\Documents\Projetos\Python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000014.log 
+2022/02/18-00:44:43.472 185c Compacting 1@1 + 1@2 files
+2022/02/18-00:44:43.557 185c Generated table #17@1: 63 keys, 35360 bytes
+2022/02/18-00:44:43.557 185c Compacted 1@1 + 1@2 files => 35360 bytes
+2022/02/18-00:44:43.594 185c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/18-00:44:43.595 185c Delete type=2 #13
+2022/02/18-00:44:43.596 185c Delete type=2 #15

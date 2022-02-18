@@ -1,3 +1,5 @@
+import time
+
 import acao
 from acesso import iniciar, login
 from interface import terminal
@@ -5,6 +7,7 @@ from acao import arquivo
 from acao import recomecar, comentar, disfarce
 from random import randint
 from time import sleep
+import os
 
 #Pega os dados
 '''usuario = str(input('Digite seu Usuário: '))
@@ -20,7 +23,7 @@ def principal_comentar(valores):
 
     try:
         #Guarda os dados de login e senha e do navegador em um dicionário
-        dados = iniciar.inic(valores['opera'])
+        dados = iniciar.inic(valores['opera'], valores['usuario'])
         dados['num_marcar'] = valores['marcar']
     except:
         terminal.Printar('Erro ao iniciar os dados.')
@@ -37,7 +40,7 @@ def principal_comentar(valores):
             senha = valores['senha']
 
             #Realiza o login
-            login.login(user, senha, dados)
+            #login.login(user, senha, dados)
 
             terminal.Linha()
             terminal.Printar('Pegando os seguidores...')
@@ -48,12 +51,13 @@ def principal_comentar(valores):
         if valores['rNao']:
             user = c[-2]
             senha = c[-1]
-            login.login(user, senha, dados)
+            #login.login(user, senha, dados)
 
         #Acessa o foto que irá comentar
         login.acessar(dados, c[-3])
 
         #Realiza os comentarios
+        qt_coment_con = randint(10, 15)
         for j in range(0, valores['comQuant']):
             terminal.Linha()
 
@@ -78,7 +82,11 @@ def principal_comentar(valores):
                 disfarce(dados)
                 login.acessar(dados, c[-3])
             else:
-                tempo = randint(40, 180)
+                if j % qt_coment_con == 0 and j != 0:
+                    qt_coment_con = randint(10, 15)
+                    tempo = randint(180, 300)
+                else:
+                    tempo = randint(10, 15)
                 terminal.Printar(f'Tempo de espera: {tempo} segundos')
                 for t in range(0, 60):
                     print('-', end='')
@@ -90,7 +98,7 @@ def principal_comentar(valores):
 
 def principal_seguir(valores):
     try:
-        dados = iniciar.inic(valores['opera'])
+        dados = iniciar.inic(valores['opera'], valores['user'])
     except:
         print('deu ruim')
     else:
@@ -98,7 +106,19 @@ def principal_seguir(valores):
         terminal.Printar('Iniciando...')
 
         # Realiza o login
-        login.login(valores['user'], valores['senha'], dados)
+        # login.login(valores['user'], valores['senha'], dados)
+        dados['driver'].get('https://www.instagram.com')
+        time.sleep(20)
 
         #acessa perfil e segui os 'seguindo'
-        acao.seguir_perfis(dados, valores['perfil'])
+        perfis = acao.seguir_perfis(dados, valores['perfil'])
+        cont = 1
+        for botao in perfis:
+            botao.click()
+            terminal.Printar(f'Seguidos: {cont}/{perfis}')
+            if cont % 15 == 0:
+                tempo = randint(100, 140)
+            else:
+                tempo = randint(15, 25)
+            cont += 1
+            terminal.barra_espera(tempo)

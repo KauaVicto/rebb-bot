@@ -13,7 +13,7 @@ def comentar(dados, frase, names):
         frase += ' '
     try:
         for i in names:
-            frase += f'@{i[:-1]} '
+            frase += f'{i[:-1]} '
 
         comentario_element = driver.find_element_by_xpath("//textarea[@class='Ypffh']")
         comentario_element.click()
@@ -33,7 +33,6 @@ def pegarSegui(dados, user, seguiQt, bSegui):
     global names
     driver = dados['driver']
     link = ''
-    user = 'nilmoretto'
 
     if bSegui:
         link = '/followers/'
@@ -103,12 +102,16 @@ def seguir_perfis(dados, perfil):
     #acessa perfil
     driver.get(f'https://www.instagram.com/{perfil}/')
     try:
-        btn_seguindo = driver.find_elements_by_css_selector(".-nal3  .g47SY ")[2]
+        btn_seguindo = driver.find_elements_by_css_selector(f'a[href="/{perfil}/following/"]')[0]
     except:
         print('Não encontrou o botão "Seguindo"')
     else:
-        qt_seguindo = int(btn_seguindo.text)
+        qt_seguindo = btn_seguindo.text
+        qt_seguindo = int(qt_seguindo.replace(' seguindo', ''))
         btn_seguindo.click()
         time.sleep(4)
-        print(len(driver.find_elements_by_css_selector('div.Pkbci button.L3NKy')))
-
+        perfis_seguindo = []
+        while len(perfis_seguindo) < qt_seguindo:
+            perfis_seguindo = driver.find_elements_by_css_selector('.isgrP .sqdOP')
+            driver.execute_script("window.document.getElementsByClassName('isgrP')[0].scrollBy(0,100)")
+        return perfis_seguindo
