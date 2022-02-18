@@ -1,0 +1,21 @@
+2022/02/18-11:24:19.848 bf0 Reusing MANIFEST C:\Users\kauav\Documents\Kauã\python\rebb-bot\dist\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/18-11:24:19.849 bf0 Recovering log #47
+2022/02/18-11:24:19.871 bf0 Reusing old log C:\Users\kauav\Documents\Kauã\python\rebb-bot\dist\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000047.log 
+2022/02/18-11:25:33.032 bf0 Level-0 table #52: started
+2022/02/18-11:25:33.052 bf0 Level-0 table #52: 789603 bytes OK
+2022/02/18-11:25:33.053 bf0 Delete type=0 #47
+2022/02/18-11:28:37.606 1d18 Compacting 1@1 + 1@2 files
+2022/02/18-11:28:37.617 1d18 Generated table #53@1: 66 keys, 41069 bytes
+2022/02/18-11:28:37.618 1d18 Compacted 1@1 + 1@2 files => 41069 bytes
+2022/02/18-11:28:37.619 1d18 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/18-11:28:37.619 1d18 Delete type=2 #49
+2022/02/18-11:28:37.619 1d18 Delete type=2 #52
+2022/02/18-11:40:30.454 1b0c Level-0 table #55: started
+2022/02/18-11:40:30.472 1b0c Level-0 table #55: 755889 bytes OK
+2022/02/18-11:40:30.474 1b0c Delete type=0 #51
+2022/02/18-11:52:58.329 1b0c Compacting 1@1 + 1@2 files
+2022/02/18-11:52:58.345 1b0c Generated table #56@1: 66 keys, 25707 bytes
+2022/02/18-11:52:58.345 1b0c Compacted 1@1 + 1@2 files => 25707 bytes
+2022/02/18-11:52:58.347 1b0c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/18-11:52:58.348 1b0c Delete type=2 #53
+2022/02/18-11:52:58.348 1b0c Delete type=2 #55

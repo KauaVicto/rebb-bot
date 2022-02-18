@@ -1,10 +1,6 @@
-[10744:10188:0218/004350.864:ERROR:device_event_log_impl.cc(214)] [00:43:50.863] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
-[10744:12272:0218/004350.865:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
-[10744:12272:0218/004350.865:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
-[10744:12272:0218/004350.866:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
-[10744:12272:0218/004351.420:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
-[10744:10188:0218/004402.057:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
-[10744:10188:0218/004402.057:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
-[10744:10188:0218/004725.057:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
-[10744:10188:0218/004725.057:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
-[10744:10188:0218/004829.828:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[5740:1272:0218/081820.372:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[5740:1272:0218/081820.373:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[5740:1272:0218/081820.373:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[5740:1272:0218/081820.398:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+[5740:9564:0218/081820.404:ERROR:device_event_log_impl.cc(214)] [08:18:20.403] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[5740:9564:0218/081854.519:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

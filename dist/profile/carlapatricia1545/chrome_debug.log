@@ -1,0 +1,19 @@
+[8136:4104:0218/112424.207:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[8136:4104:0218/112424.557:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[8136:4104:0218/112424.557:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[8136:4104:0218/112424.573:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+[8136:3368:0218/112424.598:ERROR:device_event_log_impl.cc(214)] [11:24:24.598] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[8136:3368:0218/112839.892:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
+[8136:3368:0218/112839.892:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
+[8136:3368:0218/113954.979:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
+[8136:3368:0218/113954.980:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
+[8136:3368:0218/113956.599:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
+[8136:3368:0218/113956.599:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
+[8136:3368:0218/114622.083:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.instagram.com/ (0)
+[8136:3368:0218/114622.083:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read properties of undefined (reading 'push')", source: https://www.instagram.com/ (55)
+[8136:3368:0218/114624.169:INFO:CONSOLE(4)] "ErrorUtils caught an error:
+
+operation is cancelled
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/19a3e2abf4c7.js (4)
+[8136:3368:0218/115403.232:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

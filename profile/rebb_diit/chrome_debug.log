@@ -1,7 +1,0 @@
-[11536:12896:0217/232738.835:ERROR:device_event_log_impl.cc(214)] [23:27:38.834] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
-[11536:12424:0217/232738.841:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
-[11536:12424:0217/232738.842:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
-[11536:12424:0217/232738.842:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
-[11536:12424:0217/232739.994:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
-[11536:12896:0217/232844.993:WARNING:controller_impl.cc(1184)] Background download complete, client: 6, completion type: 0, file size:265059
-[11536:12896:0217/233115.432:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

@@ -1,0 +1,11 @@
+[8436:7756:0218/090248.535:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[8436:7756:0218/090248.536:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[8436:7756:0218/090248.536:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[8436:13128:0218/090248.554:ERROR:device_event_log_impl.cc(214)] [09:02:48.553] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[8436:7756:0218/090248.561:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+[8436:13128:0218/090300.727:INFO:CONSOLE(4)] "ErrorUtils caught an error:
+
+operation is cancelled
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/19a3e2abf4c7.js (4)
+[8436:13128:0218/090429.729:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

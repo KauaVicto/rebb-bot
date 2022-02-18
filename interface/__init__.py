@@ -77,7 +77,7 @@ def janela_comentar():
         elif eventos == 'rNao':
             window['link'].update(disabled=True)
             window['qtSegui'].update(disabled=True)
-            window['usuario'].update(disabled=True)
+            #window['usuario'].update(disabled=True)
             window['senha'].update(disabled=True)
             window['frase'].update(disabled=True)
             window['bSeguidor'].update(disabled=True)

@@ -1,15 +1,15 @@
-2022/02/18-00:13:58.998 370 Reusing MANIFEST C:\Users\kauav\Documents\Projetos\Python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/02/18-00:13:58.998 370 Recovering log #7
-2022/02/18-00:13:59.008 370 Reusing old log C:\Users\kauav\Documents\Projetos\Python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000007.log 
-2022/02/18-00:15:33.091 370 Level-0 table #12: started
-2022/02/18-00:15:33.266 370 Level-0 table #12: 776388 bytes OK
-2022/02/18-00:15:33.347 370 Delete type=0 #7
-2022/02/18-00:27:15.162 910 Compacting 1@1 + 1@2 files
-2022/02/18-00:27:15.222 910 Generated table #13@1: 57 keys, 24788 bytes
-2022/02/18-00:27:15.222 910 Compacted 1@1 + 1@2 files => 24788 bytes
-2022/02/18-00:27:15.263 910 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/02/18-00:27:15.264 910 Delete type=2 #9
-2022/02/18-00:27:15.264 910 Delete type=2 #12
-2022/02/18-00:39:07.764 4e8 Level-0 table #15: started
-2022/02/18-00:39:08.532 4e8 Level-0 table #15: 759887 bytes OK
-2022/02/18-00:39:08.858 4e8 Delete type=0 #11
+2022/02/18-08:00:07.526 df0 Reusing MANIFEST C:\Users\kauav\Documents\Kauã\python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/18-08:00:07.527 df0 Recovering log #3
+2022/02/18-08:00:07.527 df0 Reusing old log C:\Users\kauav\Documents\Kauã\python\rebb-bot\profile\carlapatricia1545\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000003.log 
+2022/02/18-08:06:34.453 2fa0 Level-0 table #5: started
+2022/02/18-08:06:34.481 2fa0 Level-0 table #5: 768022 bytes OK
+2022/02/18-08:06:34.484 2fa0 Delete type=0 #3
+2022/02/18-08:09:24.248 2d28 Level-0 table #7: started
+2022/02/18-08:09:24.274 2d28 Level-0 table #7: 808316 bytes OK
+2022/02/18-08:09:24.286 2d28 Delete type=0 #4
+2022/02/18-08:12:13.879 2c5c Compacting 1@1 + 1@2 files
+2022/02/18-08:12:13.889 2c5c Generated table #8@1: 72 keys, 36354 bytes
+2022/02/18-08:12:13.889 2c5c Compacted 1@1 + 1@2 files => 36354 bytes
+2022/02/18-08:12:13.891 2c5c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/18-08:12:13.891 2c5c Delete type=2 #5
+2022/02/18-08:12:13.891 2c5c Delete type=2 #7
